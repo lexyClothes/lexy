@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | SDE Portfolio</title>
+  <style>
+    /* Reset & base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Container */
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    /* Header / Landing */
+    header {
+      text-align: center;
+      padding: 40px 20px 60px;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #007bff;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #555;
+    }
+    /* Section titles */
+    section h2 {
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: #007bff;
+    }
+    /* About */
+    #about p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #444;
+    }
+    /* Projects */
+    .project {
+      background: white;
+      margin-bottom: 20px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+    }
+    .project h3 {
+      margin-top: 0;
+      color: #222;
+    }
+    .project p {
+      margin-bottom: 5px;
+      color: #555;
+    }
+    .project .tech {
+      font-style: italic;
+      color: #666;
+      font-size: 0.9rem;
+    }
+    .project a {
+      font-weight: 600;
+      font-size: 0.95rem;
+      display: inline-block;
+      margin-top: 8px;
+    }
+    /* Skills */
+    #skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+    #skills li {
+      background: #007bff;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.95rem;
+    }
+    /* Contact */
+    #contact a {
+      margin-right: 15px;
+      font-weight: 600;
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .project {
+        padding: 10px 15px;
+      }
+      #skills ul {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="your-photo.jpg" alt="Your Name" />
+      <h1>Your Name</h1>
+      <p>Aspiring Software Development Engineer | Passionate Coder & Problem Solver</p>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am a recent graduate in Computer Science with a strong passion for software development and learning new technologies. I enjoy solving challenging problems and building efficient, clean code. I aim to kickstart my career as a Software Development Engineer and contribute to innovative projects.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Project One: ToDo App</h3>
+        <p>A simple web-based task manager that helps organize your daily activities.</p>
+        <p class="tech">Technologies: HTML, CSS, JavaScript, LocalStorage</p>
+        <a href="https://github.com/yourusername/todo-app" target="_blank">GitHub Repo</a>
+      </div>
+
+      <div class="project">
+        <h3>Project Two: Weather Dashboard</h3>
+        <p>A responsive app that fetches and displays weather information using a public API.</p>
+        <p class="tech">Technologies: React, OpenWeatherMap API, CSS</p>
+        <a href="https://github.com/yourusername/weather-dashboard" target="_blank">GitHub Repo</a>
+      </div>
+
+      <div class="project">
+        <h3>Project Three: Blog CMS</h3>
+        <p>A basic content management system allowing users to create and edit blog posts.</p>
+        <p class="tech">Technologies: Node.js, Express, MongoDB, EJS</p>
+        <a href="https://github.com/yourusername/blog-cms" target="_blank">GitHub Repo</a>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Git & GitHub</li>
+        <li>Problem Solving</li>
+        <li>Teamwork</li>
+        <li>Communication</li>
+      </ul>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>
+        <a href="YourName_Resume.pdf" target="_blank">Download My Resume (PDF)</a>
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:youremail@example.com">youremail@example.com</a><br />
+        LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a><br />
+        GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+      </p>
+    </section>
+  </div>
+</body>
+</html>
